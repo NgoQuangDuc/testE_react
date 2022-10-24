@@ -1,0 +1,66 @@
+.all{
+    display: flex;
+    padding:45px
+}
+.all1{
+    border: 1px solid black;
+   flex-basis: 60%;
+    height:400px
+}
+.all2{
+    border: 1px solid black;   
+    flex-basis: 30%;
+    margin-left: 80px;
+}
+
+div button{
+    background-color:yellow;
+    border: 1px solid black;
+    border-radius:10px;
+    margin-left:4px
+}
+.all2 div{
+    float: left;
+    padding:0px 20px;
+    margin-top: 30px;
+    padding-left: 40px;
+ 
+    .bor{
+        border: 1px solid gray;
+     padding:5px 10px 5px 10px;
+       margin: 9px 10px;
+    border-radius: 50%;
+    
+    }
+}
+.all2 div .bor:hover{
+    background-color:red;
+    cursor: pointer;
+
+}
+.active{
+    background-color:green
+}
+ul{
+    display: flex;
+    margin-left: 400px;
+}
+li a{
+    text-decoration:none;
+    color:white !important
+}
+li{
+    list-style: none;
+    background-color: black;
+    border:1px white solid;
+    padding:10px
+}
+.selected{
+    background-color:red
+}
+.disabled{
+    background-color:gray
+}
+.s{
+    background-color:yellow
+}

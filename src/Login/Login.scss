@@ -1,0 +1,20 @@
+.nav{
+    display:flex;
+  
+    border: 1px solid black;
+}
+.but{
+    position: relative;
+    right:-850px;
+}
+@media only screen and (min-width: 600px) and (max-width: 1318px)  {
+.but{
+    position: relative;
+    right: -30%;
+}
+
+}
+@media only screen and (max-device-width: 670px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+ }
+   
